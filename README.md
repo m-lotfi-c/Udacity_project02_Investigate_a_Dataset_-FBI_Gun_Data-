@@ -76,7 +76,73 @@ The purpose of this project is to explore the trends of U.S gun purchases with c
 - A messy (i.e. untidy) dataset
     - noted [[census.csv]]('census.csv') dataset is un structured and not easy to ooperate in 
     - we divided this dataset with common related dates and its data using [[04-Create_data.ipynb]](./04-Create_data.ipynb)  
-- __Resulting three files:__<br>
-    1- [[nics.csv]](./nics.csv)<br>
-    2- [[population.csv]](./population.csv)<br>
-    3- [[census.csv]]('census.csv')<br>
+- __Resulting files:__<br>
+    1- [[census_2010_2016.csv]]('./census_2010_2016.csv')<br> 
+    2- [[census_2012.csv]]('./census_2012.csv')<br>
+    3- [[census_2014_2015.csv]]('./census_2014_2015.csv')<br>
+    4- [[census_2015.csv]]('./census_2015.csv')<br>
+    5- [[census_2016.csv]]('./census_2016.csv')<br>
+    6- [[census_July_2016.csv]]('./census_July_2016.csv')<br>
+    7- [[census_2010_2016.csv]]('./census_2010_2016.csv')<br>
+    8- [[census_July_2016.csv]]('./census_July_2016.csv')<br>
+    
+
+### Questions
+<ul>
+<li><a href="#Question1">What census data is most associated with high gun per capita?</a></li>
+<li><a href="#Question2">Which states have had the highest growth in gun registrations?</a></li>
+<li><a href="#Question3">What is the overall trend of gun purchases?</a></li>
+<li><a href="#Question4">Conclusions</a></li>
+</ul>
+
+<a id='conclusions'></a>
+## Conclusions
+
+### summarize your findings and the results that have been performed. 
+- there isnot enough data in census population before 2010 
+- the data ignore global economy an ploticals events
+- some times the population percentage of change go down and the permit increase with it.
+tations of your exploration. 
+If you haven't done any statistical tests, do not imply any statistical conclusions. 
+And make sure you avoid implying causation from correlation!
+
+Once you are satisfied with your work here, 
+check over your report to make sure that it is satisfies all the areas of the rubric 
+
+
+(found on the project submission page at the end of the lesson). 
+You should also probably remove all of the "Tips" like this one so that the presentation is as polished as possible.
+
+<a id='Limitations'></a>
+## Limitations
+
+### summarize your findings and the results that have been performed. 
+- there isnot enough data in census population before 2010 
+- the data ignore global economy an ploticals events
+- some times the population percentage of change go down and the permit increase with it.
+- Fact Notes													
+    (a)	Includes persons reporting only one race												
+    (b)	Hispanics may be of any race, so also are included in applicable race categories
+    (c)	Economic Census - Puerto Rico data are not comparable to U.S. Economic Census data									- - 
+										
+- Either no or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest or upper interval of an open ended distribution.
+    - D --	Suppressed to avoid disclosure of confidential information												
+    - F --	Fewer than 25 firms												
+    - FN --	Footnote on this item in place of data												
+    - NA --	Not available												
+    - S  --	Suppressed; does not meet publication standards												
+    - X  --	Not applicable												
+    - Z  --	Value greater than zero but less than half unit of measure shown					
+
+<a id='references'></a>
+### References:
+- https://github.com/BuzzFeedNews/nics-firearm-background-checks
+- https://www.census.gov/en.html
+    -  [State Population Totals: 2010-2019](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html#par_textimage_500989927) [[nst-est2019-01.xlsx](https://www2.census.gov/programs-surveys/popest/tables/2010-2019/state/totals/nst-est2019-01.xlsx)]
+    - [Census Regions and Divisions of the United States](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf)
+- wikipedia
+    - [List of U.S. states and territories by area](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area)
+    - [Midwestern United States](https://en.wikipedia.org/wiki/Midwestern_United_States)
+    - [Northeastern United States](https://en.wikipedia.org/wiki/Northeastern_United_States)
+    - [Southern United States](https://en.wikipedia.org/wiki/Southern_United_States)
+    - [Western United States](https://en.wikipedia.org/wiki/Western_United_States)
