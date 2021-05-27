@@ -145,3 +145,37 @@ Aggregation is often done in reporting to be able to “ slice and dice” infor
 Descriptive statistics provides simple summaries of a data sample. Examples could be calculating average GPA for applicants to a school, or calculating the batting average of a professional baseball player. In our electricity supply scenario, we could use descriptive statistics to calculate the average temperature per hour, per day, or per date.
 Some of the commonly used descriptive statistics are Mean, Median, Mode, Standard Deviation, and Interquartile range.
 
+Data Rich vs. Data Poor
+Do you have data on what you are trying to predict? If so, you can proceed down the data rich path, otherwise, the data poor path is your only option. See the following example that demonstrates a data poor scenario.
+
+
+A/B Tests
+If there is not sufficient usable data to solve the problem, then we need to set up an experiment to help us get the data we need. An experiment in a business context is usually referred to as an A/B Test.
+
+
+Numeric vs. Non-Numeric Predictive Analysis
+Assuming we have enough data to proceed with the analysis, our next decision is to look at the outcome we’re trying to predict and determine if it’s a numeric outcome or a non-numeric outcome.
+Regression Models
+Numeric outcomes are those where the outcome is simply a number. Predicting the demand for electricity or the hourly temperature are both numeric outcomes. Models predicting numeric data are called regression models.
+Classification Models
+Non-numeric outcomes are those where we’re trying to predict the category into which a case (e.g. customer) falls, such as whether a customer will pay on-time, pay late, or default on a payment. Another example is the whether an electronic device will fail before 1000 hours or not. Models predicting non-numeric data are called classification models.
+
+Target Variables
+Target variables represent the outcome we are trying to predict. In order to select the right predictive model, we first determine whether the target variable is numeric or non-numeric. The type of numeric or non-numeric target variables will then help us select which model is appropriate. Let’s start with numeric variables.
+Types of Numeric Variables
+The three most common types of numeric variables are continuous, time-based, and count.
+Continuous
+A continuous variable is one that can take on all values in a range. For instance your height can be measured down to many decimal places. We do not grow in even inch intervals.
+Time-Based
+A time-based numeric variable is one where you are trying to predict what will happen over time. This is often related to forecasting.
+Count
+Count variables are numbers that are discrete, positive integers. They’re called count numbers because they’re used to analyze variables that you can count. As modeling these type of variables is not common in business, we won’t be covering this topic in this course.
+
+Non-Numeric Variables
+A non-numeric variable is often called categorical, because the values of the variable take on a discrete number of possible values or categories. Examples include whether an electronic device will fail before 1000 hours or not; whether a customer will pay on-time, pay late, or default on a payment, or whether a store is classified as large, medium or small.
+Classification Models: Binary and Non-Binary
+When modeling categorical variables, the number of possible outcomes is an important factor. If there are only two possible categorical outcomes, such as Yes or No, or True or False, then the variable can be described as Binary.
+If there are more than two possible categorical outcomes, such as small, medium, or large, or pay on-time, pay late, or default on a payment, then the variable can be described as non-binary. The important take-away from this lesson is the ability to determine if you should use a classification model, and whether it should be a binary model or a non-binary model. Ben Burkholder will lead a course focused on classification models and will go into detail about these types of models.
+
+Methodology Map Assessment
+Now that we’ve gone through several scenarios, let’s get some more practice determining the right methodology for a variety of business problems. For each of the following descriptions, select the correct methodology. Use the methodology map as a guide to help make the decision.
